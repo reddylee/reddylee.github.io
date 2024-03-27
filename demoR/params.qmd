@@ -1,0 +1,7 @@
+---
+title: Parameterized Reporting with Quarto
+author: "Jadey Ryan"
+date: last modified
+format: html
+---
+

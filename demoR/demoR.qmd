@@ -1,0 +1,11 @@
+---
+title: R tutorial
+listing:
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+margin-header: |
+  ![](/fig/candoso.png){width="61.8%"}
+---

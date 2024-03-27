@@ -1,8 +1,8 @@
 ---
-title: "About"
+title: "About This Website"
 ---
 
-This is Reddy's tutorial website for R and Python.
+This is tutorial website for R and Python.
 
 ```{r}
 1 + 1

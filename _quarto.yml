@@ -3,7 +3,7 @@ project:
   title: Can.Do.So
 
 website:
-  title: "reddylee.github.io"
+  title: "Can.Do.So"
   navbar:
     left:
       - href: index.qmd

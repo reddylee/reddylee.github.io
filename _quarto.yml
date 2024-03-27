@@ -8,7 +8,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - href: demoR/demoR.qmd
+      - href: ~demoR/demoR.qmd
         text: R Tutorials
 
 format:

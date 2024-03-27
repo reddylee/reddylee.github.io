@@ -1,5 +1,7 @@
 project:
   type: website
+  title: Can.Do.So
+  output-dir: _site
 
 website:
   title: "reddylee.github.io"

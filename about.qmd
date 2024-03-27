@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-About this site
+This is Reddy's tutorial website for R and Python.
 
 ```{r}
 1 + 1

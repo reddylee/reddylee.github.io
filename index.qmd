@@ -2,9 +2,9 @@
 title: "reddylee.github.io"
 ---
 
-This is a Quarto website.
+Welcome to my Can.Do.So!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+欢迎访问耕读社！
 
 ```{r}
 1 + 1

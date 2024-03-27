@@ -14,6 +14,13 @@
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nParameterized Reporting with Quarto\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nJadey Ryan\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "demoR/params.html",
+    "href": "demoR/params.html",
+    "title": "Parameterized Reporting with Quarto",
+    "section": "",
+    "text": "library(tidyverse) \nview(starwars)\n\n\nstarwars |&gt; \n  filter(sex == params$sex, eye_color == params$eye_color) |&gt;\n  ggplot(aes(x = height, y = mass)) +\n  geom_point() \n\nWarning: Removed 1 row containing missing values or values outside the scale range\n(`geom_point()`)."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",

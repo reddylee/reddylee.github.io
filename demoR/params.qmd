@@ -3,5 +3,22 @@ title: Parameterized Reporting with Quarto
 author: "Jadey Ryan"
 date: last modified
 format: html
+params:
+  sex: female
+  eye_color: black
 ---
+
+```{r}
+#| message: false
+library(tidyverse) 
+view(starwars)
+```
+
+```{r}
+starwars |> 
+  filter(sex == params$sex, eye_color == params$eye_color) |>
+  ggplot(aes(x = height, y = mass)) +
+  geom_point() 
+```
+
 

@@ -1,5 +1,5 @@
 ---
-title: Welcome to my Can.Do.So!
+title: Welcome to Can.Do.So!
 ---
 
 欢迎访问耕读社！

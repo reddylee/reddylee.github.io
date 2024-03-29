@@ -1,0 +1,13 @@
+---
+title: Quarto for Reproducible Medical Manuscripts
+author: Mine Cetinkaya-Rundel
+date: 2024-03-28
+---
+
+## Materials
+
+{{< youtube NK1onTLcgY4 >}}
+
+<https://mine.quarto.pub/quarto-manuscripts-rmed/#/title-slide>
+
+{{< embed plot_table.qmd#fig-cars >}}

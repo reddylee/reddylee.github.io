@@ -1,0 +1,23 @@
+```{r}
+library(tidyverse)
+```
+
+```{r}
+#| lable: fig-cars
+#| fig-cap: Scatter plot of mpg vs hp colored by am
+mtcars |> 
+  mutate(am = as.factor(am)) |>
+  ggplot(aes(x = mpg, y = hp, color = am)) +
+  geom_point() 
+```
+
+```{r}
+#| lable: tbl-cars
+#| tbl-cap: First 5 rows of mtcars
+
+mtcars |> 
+  head(5) |>
+  knitr::kable()
+```
+
+
